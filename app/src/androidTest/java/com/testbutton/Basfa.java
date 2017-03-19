@@ -33,6 +33,8 @@ public class Basfa {
     public void settingsTest() throws InterruptedException, UiObjectNotFoundException {
         mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
 
+        //comment fjasdlfjlks;adjflk;asdjflkajsd;lfjas;
+
         onView(withText("General")).check(matches(isDisplayed())).perform(click());
         onView(withText("Display name")).check(matches(isDisplayed())).perform(click());
 
